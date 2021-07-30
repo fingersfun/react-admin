@@ -1,0 +1,83 @@
+
+@import "../../styles/fonts";
+
+.statsWithProgressBar{
+  .header{
+    font-family: $sourcesans;
+    .headerNum{
+      font-size: 1.3rem;
+    }
+    .statsHeaderTitle{
+      text-transform: uppercase;
+      letter-spacing: 0;
+      margin-left: 0.5rem;
+      color: #828282;
+    }
+  }
+}
+
+.userStats-circular-progress{
+  font-family: $sourcesans;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .userStats-card-header{
+    .card-header-number-count{
+      font-size: 2rem;
+    }
+    .card-header-label{
+      font-size: 0.8rem;
+      color: #828282;
+      text-transform: uppercase;
+    }
+  }
+  .userStats-badge-and-prgress{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .ant-progress-circle-path{
+      stroke: #7edacf !important;
+    }
+  }
+}
+
+%m-circular-progress-with-header{
+  display: flex; 
+  width: 100%; 
+  flex-direction: column; 
+  align-items: center; 
+  margin-top: 4rem; 
+  margin-bottom: 4rem;
+}
+
+.circular-progress-with-6bdcff-header{
+  @extend %m-circular-progress-with-header;
+  .ant-progress-circle-path{
+    stroke: #6bdcff !important;
+  }
+}
+.circular-progress-with-7edacf-header{
+  @extend %m-circular-progress-with-header;
+  .ant-progress-circle-path{
+    stroke: #7edacf !important;
+  }
+}
+.circular-progress-with-ffc920b3-header{
+  @extend %m-circular-progress-with-header;
+  .ant-progress-circle-path{
+    stroke: #ffc920b3 !important;
+  }
+}
+
+.timeline-card-component{
+.header{
+  display: flex;
+  width:100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: $sourcesans;
+  height: 60px;
+}
+}

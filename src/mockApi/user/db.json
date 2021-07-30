@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "firstName": "Admin",
+    "lastName": "Fingers",
+    "password": "12345",
+    "email": "admin@fake.com",
+    "age": 30,
+    "address": "Hyderabad, Hitech City"
+  },
+  {
+    "id": 2,
+    "firstName": "Fingers1",
+    "lastName": "Fingers 1",
+    "password": "12345",
+    "email": "fingers1@fake.com",
+    "age": 20,
+    "address": "Hyderabad - 1"
+  },
+  {
+    "id": 3,
+    "firstName": "Fingers2",
+    "lastName": "Fingers 2",
+    "password": "12345",
+    "email": "fingers2@fake.com",
+    "age": 30,
+    "address": "Hyderabad - 2"
+  },
+  {
+    "id": 4,
+    "firstName": "Fingers3",
+    "lastName": "Fingers 3",
+    "age": 42,
+    "address": "Hyderabad - 3",
+    "password": "12345",
+    "email": "fingers3@fake.com"
+  },
+  {
+    "id": 5,
+    "firstName": "Fingers4",
+    "lastName": "Fingers 4",
+    "age": 32,
+    "address": "Hyderabad - 4",
+    "password": "12345",
+    "email": "fingers4@fake.com"
+  },
+  {
+    "id": 6,
+    "firstName": "Fingers5",
+    "lastName": "Fingers 5",
+    "age": 32,
+    "address": "Hyderabad - 5",
+    "password": "12345",
+    "email": "fingers5@fake.com"
+  },
+  {
+    "id": 7,
+    "firstName": "Fingers6",
+    "lastName": "Fingers 6",
+    "age": 22,
+    "address": "Hyderabad - 6",
+    "password": "12345",
+    "email": "fingers6@fake.com"
+  },
+  {
+    "id": 8,
+    "firstName": "Fingers7",
+    "lastName": "Fingers 7",
+    "age": 40,
+    "address": "Hyderabad - 7",
+    "password": "12345",
+    "email": "fingers7@fake.com"
+  }
+]

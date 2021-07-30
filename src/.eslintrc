@@ -1,0 +1,32 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "node": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "parser": "babel-eslint",
+  "rules": {
+    "no-console": "off",
+    "eslint-disable-next-line": "off",
+    "react/display-name": "off",
+    "no-global-assign": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "strict": [
+      "error",
+      "global"
+    ],
+    "curly": "warn"
+  }
+}

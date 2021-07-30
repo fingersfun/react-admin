@@ -1,0 +1,55 @@
+{
+  "name": "react-admin-start",
+  "version": "0.1.0",
+  "author": {
+    "name": "Kiran Kumar M",
+    "email": "kirankumar.mentam@gmail.com"
+  },
+  "homepage": "http://fingersfun.com",
+  "dependencies": {
+    "antd": "^3.10.9",
+    "chart.js": "^2.7.3",
+    "memoize-one": "^4.0.3",
+    "mockjs": "^1.0.1-beta3",
+    "react": "^16.6.3",
+    "react-chartjs-2": "^2.7.4",
+    "react-countup": "^4.0.0",
+    "react-dom": "^16.6.3",
+    "react-hot-loader": "^4.3.12",
+    "react-redux": "^5.1.1",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "5.0.0-alpha.6",
+    "react-scripts": "2.1.1",
+    "redux": "^4.0.1",
+    "redux-batched-actions": "^0.4.1",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
+    "babel-build": "babel src/ -d lib/"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "babel-preset-flow": "^6.23.0",
+    "copy-dir": "^0.4.0",
+    "dotenv": "^6.1.0",
+    "flow-bin": "^0.86.0",
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.10.0",
+    "prop-types": "^15.6.2"
+  }
+}
