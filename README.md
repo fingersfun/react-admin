@@ -15,7 +15,7 @@ This source code is licensed under the MIT license.
     </td>
     <td>
       Fingers Fun<br />
-      <a href="mailto:kirankumar.mentam@gmail.com">kirankumar.mentamq@gmail.com</a><br />
+      <a href="mailto:kirankumar.mentam@gmail.com">kirankumar.mentam@gmail.com</a><br />
       <a href="https://fingersfun.com/">https://fingersfun.com/</a>
     </td>
   </tr>
